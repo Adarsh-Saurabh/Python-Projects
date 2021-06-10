@@ -9,8 +9,8 @@ Original file is located at
 ##Making web scrapper
 """
 
-#!pip install requests bs4
-
+!pip install requests bs4
+!pip install pandas
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
