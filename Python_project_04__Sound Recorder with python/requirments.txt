@@ -1,0 +1,13 @@
+Hi,
+For this to run you need to run these commands first.
+
+pip install numpy
+pip install wave
+pip install pipwin
+pipwin install pyaudio
+
+
+After this you are ready to go.
+
+
+!Must remember to do this in order.
