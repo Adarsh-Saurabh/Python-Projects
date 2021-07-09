@@ -19,7 +19,7 @@ if no_of_players == "a" :
       if roll1 == 1 :
           roll1 = "s"
       elif roll1 == 2:
-          roll1 = "pr"
+          roll1 = "p"
       elif roll1 == 3:
           roll1 = "x"
       user3 = input("press 's' for stone, press 'p' for paper, press 'x' for scissior")
