@@ -7,4 +7,3 @@
 * 3 : Web Scrapper .
 * 4 : Audio Recorder Using Python.
 * 5 : Converting text to handwriting.
-*  More coming 😁...
