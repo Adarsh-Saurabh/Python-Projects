@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Shortener</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-xt1bSblgRnRmlWxI8ulZC1ihtq3luzCn6MW2U6EdaU6s2sMFnwZZWavAP8Iv+HCCzFhhfzyi1WzT8TnTtMziSg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container-fluid d-flex flex-column justify-content-center align-items-center" style="height: 100vh">
+      <h1 class="text-center mb-4">URL Shortener</h1>
+      <div class="card">
+        <div class="card-body">
+          <form method="POST" action="/">
+            <div class="mb-3">
+              <label for="url" class="form-label">Enter the URL to be shortened:</label><br>
+              <input type="text" class="form-control" id="url" name="url" />
+            </div>
+            <div class="mb-3">
+              <label for="custom-url" class="form-label">Custom Shortened URL (optional):</label>
+              <div class="input-group">
+                
+                <input type="text" class="form-control" id="custom-url" name="custom_url" />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Shorten</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js" integrity="sha512-OCgQiN2Eo3DWq3Q+rTOogweErfat9XtG+1tGXbRtss+C8mij4m4Dk1OzRJByuM7Thz9X5uK78qfDQJHc7+eLyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>
